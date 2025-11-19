@@ -10,7 +10,7 @@ export default function Hero() {
       </div>
 
       {/* Gradient overlay to improve contrast */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950/40 via-slate-950/50 to-slate-950"></div>
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950/30 via-slate-950/60 to-slate-950"></div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-8 items-center">
@@ -38,7 +38,7 @@ export default function Hero() {
               transition={{ delay: 0.2, duration: 0.7 }}
               className="mt-8 flex flex-wrap items-center gap-4"
             >
-              <a href="#contact" className="group inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 text-white shadow-[0_10px_40px_rgba(59,130,246,0.45)]">
+              <a href="#contact" className="group inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 text-white shadow-[0_10px_40px_rgba(59,130,246,0.45)] sheen">
                 Get a proposal
               </a>
               <a href="#services" className="inline-flex items-center justify-center rounded-2xl px-6 py-3 text-slate-100 bg-white/5 ring-1 ring-white/15 hover:bg-white/10">
